@@ -23,7 +23,7 @@ nav {
 }
 
 .ajuste-img-logo {
-  height: 13px;
+  height: 5px;
   margin-left: -240px;
 }
 
@@ -52,7 +52,7 @@ margin-top: -4%;
 
 footer {
   background-color: #05422c;
-  padding: 20px 0;
+  padding: 40px 0;
   color: #f0f8ff;
   text-align: center;
 }
@@ -83,6 +83,8 @@ footer {
 .footer-creators span {
       font-weight: bold;
       font-size: 18px;
+      display: flex;
+      justify-content:space-around;
     }
 .footer-bottom {
   margin-top: 10px;
@@ -96,12 +98,12 @@ footer {
 }
 
 .ajuste-letra-texto {
-  font-size: 16px;
-  margin-right: 975px;
+  font-size: 17px;
+  color: #DDDDDD;
+  margin-right: 60%;
   margin-left: 80px;
-  color: #000000;
   padding-right: 20px;
-  background-color: #bbe89d;
+  
 }
 .section{
   display: flex;
@@ -110,18 +112,23 @@ footer {
 .image {
   align-items: center;
   margin-bottom: 20px;
-  border: 2px solid #05422c;
+  border: 5px outset #171a19;
   width:fit-content;
   margin-left: 80px;
-  height: fit-content;;
+  height: fit-content;
+  
 }
 .image img {
   width: 550px;
   height: 300px;
 }
 main {
-  background-image: url(../img/background.avif);
+  background-image: url(../img/cropped-1920-1080-427274.jpg);
   background-size: cover;
+  
 }
 
-  
+/* .posicao-texto{
+ margin-right: 200px;
+}
+   */
