@@ -139,7 +139,7 @@ form {
   align-items: center;
   justify-content: center;
   margin: auto;
-  max-width: 500px;
+  max-width: 810px;
   padding: 20px;
   background-color: #ffffff;
   border: 2px solid #05422c;
@@ -151,4 +151,71 @@ form {
   gap: 10px;
   justify-content: flex-start;
   align-items: center;
+}
+
+#mensagem {
+  height: 150px;
+  width: 400px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  border: 1px solid #09501b;
+}
+
+.form-row-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+#assunto {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-row-center {
+  justify-content: center;
+}
+
+label {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 200px;
+}
+
+.checkbox-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  width: 150px;
+  height: 30px;
+  border: 2px solid #04240c;
+  border-radius: 4px;
+}
+
+.select-outline {
+  outline: 2px solid #04240c;
+  padding: 5px;
 }
