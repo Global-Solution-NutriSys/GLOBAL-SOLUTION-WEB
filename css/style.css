@@ -8,6 +8,13 @@
 
 body {
   background-color: #DDDDDD;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -17,6 +24,7 @@ nav {
 
 .ajuste-img-logo {
   height: 13px;
+  margin-left: -240px;
 }
 
 .ajuste-letra-menu{
@@ -40,3 +48,80 @@ margin-top: -4%;
 .img-planeta-menu{
   text-align: center;
 }
+
+
+footer {
+  background-color: #05422c;
+  padding: 20px 0;
+  color: #f0f8ff;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #f0f8ff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px
+}
+.footer-links a:not(:last-child) {
+    margin-right: 200px;}
+
+.footer-creators p {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    
+.footer-creators span {
+      font-weight: bold;
+      font-size: 18px;
+    }
+.footer-bottom {
+  margin-top: 10px;
+}
+.Titulo {
+  text-align: center;
+  color: #09501b;
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ajuste-letra-texto {
+  font-size: 16px;
+  margin-right: 975px;
+  margin-left: 80px;
+  color: #000000;
+  padding-right: 20px;
+  background-color: #bbe89d;
+}
+.section{
+  display: flex;
+  flex-direction:row;
+}
+.image {
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid #05422c;
+  width:fit-content;
+  margin-left: 80px;
+  height: fit-content;;
+}
+.image img {
+  width: 550px;
+  height: 300px;
+}
+main {
+  background-image: url(../img/background.avif);
+  background-size: cover;
+}
+
+  
