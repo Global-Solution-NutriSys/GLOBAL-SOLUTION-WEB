@@ -53,20 +53,15 @@
     font-size: 30px;
   }
  
-.container{
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-gap: 10px;
-}
 .paragrafros{
-  width: 60%;
-  position: relative;
-  color: rgb(0, 0, 0);
-  
+  border: solid green;
+  border-radius: 20%;
+  padding: 10%;
+  margin: 2%;
+  font-size: 18px;
 }
-.imagens{
-  width: 60%;
-  position: relative;
-  flex-direction: row;
+
+.imagens1{
+  text-align: right;
 }
 
