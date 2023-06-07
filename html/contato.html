@@ -25,38 +25,50 @@
           </div>
           <nav>
             <div class="ajuste-letra-menu">
-              <a href="html/agricultura sustentável.html"
+              <a href="agriculturaSus.html"
                 >Agricultura Sustentável
               </a>
-              <a href="html/inteligencias artificiais.html"
+              <a href="IAgenerativas.html"
                 >Inteligências Artificiais Generativas</a
               >
-              <a href="html/modelos de cultivo eficientes.html"
+              <a href="modelos de cultivo eficientes.html"
                 >Modelos de Cultivo Eficientes</a
               >
-              <a href="html/contato.html">Contato</a>
+              <a href="contato.html">Contato</a>
             </div>
           </nav>
         </header>
         <div class="container">
             <h1>Entre em contato</h1>
-            <form>
-              <div>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" required />
+            <form action="enviar.php" method="POST">
+              <div class="form-row">
+                <div>
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                  <label for="sobrenome">Sobrenome:</label>
+                  <input type="text" id="sobrenome" name="sobrenome" required>
+                </div>
               </div>
               <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" required />
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                  <option value="">Selecione um assunto</option>
+                  <option value="Opção 1">Opção 1</option>
+                  <option value="Opção 2">Opção 2</option>
+                  <option value="Opção 3">Opção 3</option>
+                </select>
               </div>
               <div>
                 <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" maxlength="1000" required></textarea>
+                <textarea id="mensagem" name="mensagem" required></textarea>
               </div>
               <div>
                 <button type="submit">Enviar</button>
               </div>
             </form>
+            
           </div>
 </body>
 </html>
