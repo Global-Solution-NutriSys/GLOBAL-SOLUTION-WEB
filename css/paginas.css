@@ -64,4 +64,42 @@
 .imagens1{
   text-align: right;
 }
+footer {
+  background-color: #05422c;
+  padding: 40px 0;
+  color: #f0f8ff;
+  text-align: center;
+}
 
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #f0f8ff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px
+}
+.footer-links a:not(:last-child) {
+    margin-right: 200px;}
+
+.footer-creators p {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    
+.footer-creators span {
+      font-weight: bold;
+      font-size: 18px;
+      display: flex;
+      justify-content:space-around;
+    }
+.footer-bottom {
+  margin-top: 10px;
+}
